@@ -1,3 +1,9 @@
+# Name predictor: Applied regex; imported the re module
+# Used regex to match last name against a regex expression
+
+# User inputs their full name, program attempts to match last name (string) to a created regex
+# If the last letter of the last name meets the 
+
 import re
 
 print('Hello, what is your name?:')
