@@ -2,7 +2,8 @@
 # Used regex to match last name against a regex expression
 
 # User inputs their full name, program attempts to match last name (string) to a created regex
-# If the last letter of the last name meets the 
+# If the last letter of the last name matches, it predicts correctly.
+# The group method passed on the variable with stores the matched string reveals the correct last name. 
 
 import re
 
@@ -25,4 +26,5 @@ else:
     print('Cool! you are going to be ' + str(int(age) + 3) + ' in 3 years!')
 
     print('Thanks for talking to me! Have a great day ' + name1 +  lastnamem.group() + '!')
-    
+
+# Feedback, comments all welcome!
